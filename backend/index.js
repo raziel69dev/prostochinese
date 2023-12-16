@@ -10,8 +10,8 @@ const mysql = require("mysql2");
 const connection = mysql.createPool({
     connectionLimit: 5,
     host: "raziel666.beget.tech",
-    user: "raziel666_hhomes",
-    database: "raziel666_hhomes",
+    user: "prostochinese",
+    database: "prostochinese",
     password: "Raziel123",
     waitForConnections: true,
     connectTimeout: 15000,
